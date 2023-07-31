@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dominate = "==2.4.0"
+gputil = "==1.4.0"
+packaging = "==20.8"
+tensorboard = "==1.15.0"
+tensorboardx = "==2.2"
+torch = ">=1.6.0"
+torchvision = ">=0.7.0"
+visdom = "==0.1.8.9"
+pillow = "*"
+torch-fidelity = "*"
+pytorch-fid = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
